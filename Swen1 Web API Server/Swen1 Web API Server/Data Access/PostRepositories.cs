@@ -64,7 +64,7 @@ namespace Semester_Projekt.Data_Access
 
         }
 
-        public Post? GetPost(int post_id) {
+        public Post? GetPostByID(int post_id) {
 
             using var connection = new NpgsqlConnection(_connectionString);
             connection.Open();
