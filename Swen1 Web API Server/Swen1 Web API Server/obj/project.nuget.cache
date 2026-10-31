@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UJHP3OyRJOI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\Swen1 Web API Server\\Swen1 Web API Server\\Swen1 Web API Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oweny\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\oweny\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512",
+    "C:\\Users\\oweny\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

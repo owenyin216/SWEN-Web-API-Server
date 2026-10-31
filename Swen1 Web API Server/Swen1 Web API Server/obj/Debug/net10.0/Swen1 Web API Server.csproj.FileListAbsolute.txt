@@ -1,0 +1,35 @@
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\appsettings.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Swen1 Web API Server.staticwebassets.endpoints.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Swen1 Web API Server.exe
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Swen1 Web API Server.deps.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Swen1 Web API Server.runtimeconfig.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Swen1 Web API Server.dll
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Swen1 Web API Server.pdb
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Npgsql.dll
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.csproj.AssemblyReference.cache
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.AssemblyInfoInputs.cache
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.AssemblyInfo.cs
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.csproj.CoreCompileInputs.cache
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\scopedcss\bundle\Swen1 Web API Server.styles.css
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 We.1E239B9B.Up2Date
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.dll
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\refint\Swen1 Web API Server.dll
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.pdb
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.genruntimeconfig.cache
+C:\Users\oweny\OneDrive\Dokumente\GitHub\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\ref\Swen1 Web API Server.dll
