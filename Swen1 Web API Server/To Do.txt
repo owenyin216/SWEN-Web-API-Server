@@ -1,0 +1,11 @@
+Erstelle stillen user in roles table
+
+time est
+erstelen GitHub + projekt  1h
+download db 2h
+erstellen db 4h
+docker 3h
+erstellenprojekt 2h
+erstellen service 4h
+erstellen model 4h
+erstellen data access 4h

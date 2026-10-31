@@ -25,13 +25,38 @@ namespace Swen1_Web_API_Server.Service
                 throw new Exception("Alter ist unplausibel.");
             }
 
+            newUser.Created_At = DateTime.UtcNow;
+            newUser.Email_Certified = false;
+            newUser.Ageverified = false;
+            newUser.Roles_Id = 1;
             _userRepository.AddUser(newUser);
         }
+        public void RegisterAdmin(User user)
+        {
 
+        }
+        public void RegisterModerator(User user)
+        {
+
+        }
+        
         public User LoginUserByUsername(string username, string password)
         {
             var existingUser = _userRepository.GetUserByUsername(username);
             if (existingUser != null && password == existingUser.Password)
+            {
+                return existingUser;
+            }
+            else
+            {
+                throw new Exception("Username oder Passwort sind falsch oder existieren nicht");
+            }
+        }
+
+        public User LoginUser(User user)
+        {
+            var existingUser = _userRepository.GetUserByUsername(user.Username);
+            if (existingUser != null && user.Password == existingUser.Password)
             {
                 return existingUser;
             }
@@ -53,23 +78,40 @@ namespace Swen1_Web_API_Server.Service
             return _userRepository.GetAllUsers();
         }
 
-        public void UpdateUserProfile(User user)
+        public void UpdateUserProfile(User user, int current_user_id)
         {
+            if (user.User_id != current_user_id)
+            {
+                throw new Exception("Zugriff verweigert: Du darfst nur dein eigenes Profil bearbeiten.");
+            }
             _userRepository.UpdateUser(user);
         }
 
-        public void DeleteUserByID(int userId)
+        public void DeleteUserByID(int userId, int current_user_id)
         {
+            if (userId != current_user_id)
+            {
+                throw new Exception("Zugriff verweigert: Du darfst nur dein eigenes Profil bearbeiten.");
+            }
             _userRepository.DeleteUserByID(userId);
         }
 
-        public void DeleteUserByName(string username)
+        public void DeleteUserByName(string username, int current_user_id)
         {
+            var existingUser = _userRepository.GetUserByUsername(username);
+            if (existingUser.User_id != current_user_id)
+            {
+                throw new Exception("Zugriff verweigert: Du darfst nur dein eigenes Profil bearbeiten.");
+            }
             _userRepository.DeleteUserByName(username);
         }
 
-        public void DeleteUser(User user) 
+        public void DeleteUser(User user, int current_user_id) 
         {
+            if (user.User_id != current_user_id)
+            {
+                throw new Exception("Zugriff verweigert: Du darfst nur dein eigenes Profil bearbeiten.");
+            }
             _userRepository.DeleteUser(user);
         }
                
