@@ -17,7 +17,7 @@ namespace Semester_Projekt.Models
        public int Roles_Id { get; set; }
        public Roles? Roles { get; set; }
        public DateTime Created_At { get; set; }
-       public String Email { get; set; }
+       public String? Email { get; set; }
        public bool Email_Certified { get; set; } 
        public DateOnly Birthdate { get; set; }
        public bool Ageverified { get; set; }

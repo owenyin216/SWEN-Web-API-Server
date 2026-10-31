@@ -10,20 +10,6 @@ string connectionString = builder.Configuration.GetConnectionString("DefaultConn
 // Add services to the container.
 var userRepository = new UserRepository(connectionString);
 var userService = new UserService(userRepository);
-var newUser = new User
-{
-    Username = "TestUser",
-    Birthdate = new DateOnly(2010, 1, 1)
-};
-
-try
-{
-    userService.RegisterUser(newUser);
-}
-catch (Exception ex)
-{
-    Console.WriteLine($"Fehler bei Registrierung: {ex.Message}");
-}
 
 
 builder.Services.AddControllers();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\Swen1 Web API Server\\Swen1 Web API Server\\Swen1 Web API Server.csproj": {}
+    "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Swen1 Web API Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\Swen1 Web API Server\\Swen1 Web API Server\\Swen1 Web API Server.csproj": {
+    "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Swen1 Web API Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\Swen1 Web API Server\\Swen1 Web API Server\\Swen1 Web API Server.csproj",
+        "projectUniqueName": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Swen1 Web API Server.csproj",
         "projectName": "Swen1 Web API Server",
-        "projectPath": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\Swen1 Web API Server\\Swen1 Web API Server\\Swen1 Web API Server.csproj",
+        "projectPath": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Swen1 Web API Server.csproj",
         "packagesPath": "C:\\Users\\oweny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\Swen1 Web API Server\\Swen1 Web API Server\\obj\\",
+        "outputPath": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
