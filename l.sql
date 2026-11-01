@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS roles CASCADE;
 create table roles(
   roles_id serial primary key, --serial ist autoincrement
   title varchar,
-  description_of_the_role varchar
+  description varchar
 );
 
 create table users (
@@ -25,7 +25,7 @@ create table users (
   --gender
   --language
   
-  foreign key (roles_id) references roles(roles_id)
+  foreign key (roles_id) references roles(roles_id) --ON DELETE CASCADE
 
     --on delete, remove from posts, ratings, likes, favourites
 );
@@ -40,7 +40,7 @@ create table posts (
   status varchar,
   created_at timestamp,
 
-  foreign key (user_id) references users(user_id)
+  foreign key (user_id) references users(user_id) ON DELETE CASCADE
 
   --on delete, delete from post rating, likes, favourites 
 
@@ -54,8 +54,8 @@ create table rating(
 	rating int CHECK (rating BETWEEN 1 AND 5), --incluse 1 and 5
 	UNIQUE (user_id, post_id),
 
-	foreign key (user_id) references users(user_id),
-  	foreign key (post_id) references posts(post_id)
+	foreign key (user_id) references users(user_id) ON DELETE CASCADE,
+  	foreign key (post_id) references posts(post_id) ON DELETE CASCADE
 
 	-- on delete, remove all likes
 
@@ -65,8 +65,8 @@ create table rating_liked_by(
 	rating_id int not null,
 	user_id int not null,
 
-	foreign key (rating_id) references rating(rating_id),
-  	foreign key (user_id) references users(user_id),
+	foreign key (rating_id) references rating(rating_id) ON DELETE CASCADE,
+  	foreign key (user_id) references users(user_id) ON DELETE CASCADE,
 
 	UNIQUE (user_id, rating_id)
 
@@ -74,10 +74,10 @@ create table rating_liked_by(
 
 create table user_favorites(
 	user_id int not null,
-  	post_id serial not null,
+  	post_id int not null,
 
-	foreign key (post_id) references posts(post_id),
-  	foreign key (user_id) references users(user_id),
+	foreign key (post_id) references posts(post_id) ON DELETE CASCADE,
+  	foreign key (user_id) references users(user_id) ON DELETE CASCADE,
 	
 	UNIQUE (user_id, post_id)
 
@@ -85,7 +85,7 @@ create table user_favorites(
 
 
 
-INSERT INTO roles (title, description_of_the_role) VALUES
+INSERT INTO roles (title, description) VALUES
 ('Admin', 'Systemadministrator mit vollen Rechten'),
 ('Moderator', 'Zuständig für Content Moderation'),
 ('User', 'Standardbenutzer');
@@ -123,3 +123,5 @@ select * from posts;
 select * from rating;
 select * from rating_liked_by;
 select * from user_favorites;
+
+DELETE FROM rating WHERE rating_id = 0; 
