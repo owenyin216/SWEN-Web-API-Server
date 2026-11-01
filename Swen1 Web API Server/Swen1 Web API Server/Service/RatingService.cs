@@ -37,7 +37,7 @@ namespace Swen1_Web_API_Server.Service
             _ratingRepository.AddRating(ratings);
         }
 
-        public void UpdateRating(Ratings ratings, User user)
+        public void UpdateRating(Ratings ratings)
         {
             var existingRating = _ratingRepository.GetRatingByID(ratings.Rating_id);
             if (existingRating == null)
@@ -45,20 +45,11 @@ namespace Swen1_Web_API_Server.Service
                 throw new Exception("Die Bewertung existiert nicht.");
             }
 
-            if (existingRating.User_Id != user.User_id)
-            {
-                throw new Exception("Zugriff verweigert: Du darfst nur deine eigenen Bewertungen bearbeiten.");
-            }
-
             if (ratings.Rating < 1 || ratings.Rating > 5)
             {
                 throw new Exception("Die Bewertung muss zwischen 1 und 5 Sternen liegen.");
             }
 
-            if (ratings.User_Id != user.User_id)
-            {
-                throw new Exception("Zugriff verweigert: Du darfst nur deine eigenen Bewertungen bearbeiten.");
-            }
             _ratingRepository.UpdateRating(ratings);
 
         }
@@ -72,16 +63,12 @@ namespace Swen1_Web_API_Server.Service
             return _ratingRepository.GetRatingByUser(user.User_id);
         }
 
-        public void DeleteRating(int rating_id, int user_id)
+        public void DeleteRating(int rating_id)
         {
             var existingRating = _ratingRepository.GetRatingByID(rating_id);
             if (existingRating == null)
             {
                 throw new Exception("Bewertung existiert nicht und kann nicht gelöscht werden.");
-            }
-            else if (existingRating.User_Id != user_id) 
-            {
-                throw new Exception("Zugriff verweigert: Du darfst nur deine eigenen Bewertungen bearbeiten.");
             }
             else
             {

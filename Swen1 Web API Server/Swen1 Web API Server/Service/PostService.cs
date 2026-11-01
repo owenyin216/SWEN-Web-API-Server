@@ -33,7 +33,7 @@ namespace Swen1_Web_API_Server.Service
             return _postRepository.GetAllPosts();
         }
 
-        public void UpdatePost(Post updatedPost, int user_id)
+        public void UpdatePost(Post updatedPost)
         {
             var existingPost = _postRepository.GetPostByID(updatedPost.Post_id);
             if (existingPost == null)
@@ -46,25 +46,15 @@ namespace Swen1_Web_API_Server.Service
                 throw new Exception("Der Titel darf nicht leer sein.");
             }
 
-            if (updatedPost.Poster_Id != user_id)
-            {
-                throw new Exception("Zugriff verweigert: Du darfst nur deine eigenen Bewertungen bearbeiten.");
-            }
-
             _postRepository.EditPost(updatedPost);
         }
 
-        public void DeletePostByID(int postId, int user_id)
+        public void DeletePostByID(int postId)
         {
             var existingPost = _postRepository.GetPostByID(postId);
             if (existingPost == null)
             {
                 throw new Exception("Post existiert nicht und kann nicht gelöscht werden.");
-            }
-
-            if (existingPost.Poster_Id != user_id)
-            {
-                throw new Exception("Zugriff verweigert: Du darfst nur deine eigenen Bewertungen bearbeiten.");
             }
 
             _postRepository.DeletePost(postId);

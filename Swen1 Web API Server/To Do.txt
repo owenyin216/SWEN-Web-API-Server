@@ -1,4 +1,6 @@
+To DO
 Erstelle stillen user in roles table
+Status table implement in db + in c#
 
 time est
 erstelen GitHub + projekt  1h

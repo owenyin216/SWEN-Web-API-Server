@@ -69,3 +69,6 @@ C:\Users\oweny\OneDrive\Dokumente\GitHub\SWEN Web API Server\Swen1 Web API Serve
 C:\Users\oweny\OneDrive\Dokumente\GitHub\SWEN Web API Server\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.pdb
 C:\Users\oweny\OneDrive\Dokumente\GitHub\SWEN Web API Server\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\Swen1 Web API Server.genruntimeconfig.cache
 C:\Users\oweny\OneDrive\Dokumente\GitHub\SWEN Web API Server\Swen1 Web API Server\Swen1 Web API Server\obj\Debug\net10.0\ref\Swen1 Web API Server.dll
+C:\Users\oweny\OneDrive\Dokumente\GitHub\SWEN Web API Server\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\oweny\OneDrive\Dokumente\GitHub\SWEN Web API Server\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\oweny\OneDrive\Dokumente\GitHub\SWEN Web API Server\Swen1 Web API Server\Swen1 Web API Server\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll

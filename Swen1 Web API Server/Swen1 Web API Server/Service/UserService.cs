@@ -78,40 +78,26 @@ namespace Swen1_Web_API_Server.Service
             return _userRepository.GetAllUsers();
         }
 
-        public void UpdateUserProfile(User user, int current_user_id)
+        public void UpdateUserProfile(User user)
         {
-            if (user.User_id != current_user_id)
-            {
-                throw new Exception("Zugriff verweigert: Du darfst nur dein eigenes Profil bearbeiten.");
-            }
             _userRepository.UpdateUser(user);
         }
 
-        public void DeleteUserByID(int userId, int current_user_id)
+        public void DeleteUserByID(int userId)
         {
-            if (userId != current_user_id)
-            {
-                throw new Exception("Zugriff verweigert: Du darfst nur dein eigenes Profil bearbeiten.");
-            }
+
             _userRepository.DeleteUserByID(userId);
         }
 
-        public void DeleteUserByName(string username, int current_user_id)
+        public void DeleteUserByName(string username)
         {
             var existingUser = _userRepository.GetUserByUsername(username);
-            if (existingUser.User_id != current_user_id)
-            {
-                throw new Exception("Zugriff verweigert: Du darfst nur dein eigenes Profil bearbeiten.");
-            }
+
             _userRepository.DeleteUserByName(username);
         }
 
-        public void DeleteUser(User user, int current_user_id) 
+        public void DeleteUser(User user) 
         {
-            if (user.User_id != current_user_id)
-            {
-                throw new Exception("Zugriff verweigert: Du darfst nur dein eigenes Profil bearbeiten.");
-            }
             _userRepository.DeleteUser(user);
         }
                
