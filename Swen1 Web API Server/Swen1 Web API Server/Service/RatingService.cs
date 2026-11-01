@@ -58,6 +58,12 @@ namespace Swen1_Web_API_Server.Service
             return _ratingRepository.GetRatingsByPost(post_id);
         }
 
+        public List<Ratings> GetAllRatingsFromUserID(int user_id)
+        {
+            return _ratingRepository.GetRatingByUserID(user_id);
+        }
+
+
         public List<Ratings> GetAllRatingsFromUser(User user) 
         {
             return _ratingRepository.GetRatingByUser(user.User_id);

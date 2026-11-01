@@ -2,6 +2,26 @@ To DO
 Erstelle stillen user in roles table
 Status table implement in db + in c#
 
+register
+{
+  "username": "TestUser",
+  "password": "MyPassword",
+  "email": "test@test.de",
+  "birthdate": "1990-01-01"
+}
+
+login
+{
+  "username": "TestUser",
+  "password": "MyPassword"
+}
+
+{
+  "username": "TestUser",
+  "password": "MyPassword1"
+}
+
+
 time est
 erstelen GitHub + projekt  1h
 download db 2h
@@ -11,3 +31,5 @@ erstellenprojekt 2h
 erstellen service 4h
 erstellen model 4h
 erstellen data access 4h
+estellen controller 3h
+test controller 2h

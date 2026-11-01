@@ -26,6 +26,7 @@ namespace Swen1_Web_API_Server.Service
             }
 
             newUser.Created_At = DateTime.UtcNow;
+            newUser.Email = "";
             newUser.Email_Certified = false;
             newUser.Ageverified = false;
             newUser.Roles_Id = 1;

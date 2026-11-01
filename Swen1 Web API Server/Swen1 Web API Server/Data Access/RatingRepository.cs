@@ -53,7 +53,7 @@ namespace Semester_Projekt.Data_Access
 
 
         public List<Ratings> GetRatingsByPost(int post_id) {
-            var AllPosts = new List<Ratings>();
+            var AllRatings = new List<Ratings>();
             using var connection = new NpgsqlConnection(_connectionString);
             connection.Open();
             string sql = "select * from rating where post_id = @post_id;";
@@ -62,7 +62,7 @@ namespace Semester_Projekt.Data_Access
             using var reader = command.ExecuteReader();
             while (reader.Read())
             {
-                AllPosts.Add(new Ratings
+                AllRatings.Add(new Ratings
                 {
                     Rating_id = reader.GetInt32(0),
                     Rating_comment = reader.GetString(1),
@@ -72,8 +72,33 @@ namespace Semester_Projekt.Data_Access
 
                 });
             }
-            return AllPosts;
+            return AllRatings;
         }
+
+        public List<Ratings> GetRatingByUserID(int user_id)
+        {
+            var AllRatings = new List<Ratings>();
+            using var connection = new NpgsqlConnection(_connectionString);
+            connection.Open();
+            string sql = "select * from rating where user_id = @user_id;";
+            using var command = new NpgsqlCommand(sql, connection);
+            command.Parameters.AddWithValue("user_id", user_id);
+            using var reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                AllRatings.Add(new Ratings
+                {
+                    Rating_id = reader.GetInt32(0),
+                    Rating_comment = reader.GetString(1),
+                    User_Id = reader.GetInt32(2),
+                    Post_Id = reader.GetInt32(3),
+                    Rating = reader.GetInt32(4),
+
+                });
+            }
+            return AllRatings;
+        }
+        
 
         public List<Ratings> GetRatingByUser(int user_id) {
             var AllPosts = new List<Ratings>();

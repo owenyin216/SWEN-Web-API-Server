@@ -9,7 +9,6 @@ namespace Semester_Projekt.Models
     {
        public int User_id { get ; set; }
 
-       [JsonIgnore]
        public string Password { get; set; } = string.Empty;
 
         //to do token

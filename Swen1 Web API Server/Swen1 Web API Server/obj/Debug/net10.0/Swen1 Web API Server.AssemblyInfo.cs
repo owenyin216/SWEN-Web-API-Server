@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Swen1 Web API Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e8957a8d1e282326247d08c4c0a798af13fef6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f5c0bfa522a332d8244079d5d785cce91d0243e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Swen1 Web API Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Swen1 Web API Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

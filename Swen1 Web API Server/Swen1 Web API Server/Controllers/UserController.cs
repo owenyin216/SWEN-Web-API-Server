@@ -4,10 +4,16 @@ using Swen1_Web_API_Server.Service;
 
 namespace Swen1_Web_API_Server.Controllers
 {
+    //dto erstellen
     public class LoginRequest
     {
         public string Username { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
+    }
+
+    public class RegisterRequest
+    {
+        //todo
     }
 
 
@@ -20,12 +26,13 @@ namespace Swen1_Web_API_Server.Controllers
         {
             _userService = userService;
         }
-
+        //todo RegisterRequest
         [HttpPost("register")]
         public IActionResult Register([FromBody] User newUser)
         {
             try
             {
+                //RegisterUser umbauen
                 _userService.RegisterUser(newUser);
                 return Ok(new { Message = "Benutzer erfolgreich registriert." });
             }
@@ -36,11 +43,11 @@ namespace Swen1_Web_API_Server.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] LoginRequest request)
+        public IActionResult Login([FromBody] User loginrequest)
         {
             try
             {
-                var user = _userService.LoginUserByUsername(request.Username, request.Password);
+                var user = _userService.LoginUserByUsername(loginrequest.Username, loginrequest.Password);
 
                 return Ok(user);
             }
