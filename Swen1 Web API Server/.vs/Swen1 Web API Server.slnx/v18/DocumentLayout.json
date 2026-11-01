@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|c:\\users\\oweny\\onedrive\\dokumente\\github\\swen web api server\\swen1 web api server\\swen1 web api server\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|c:\\users\\oweny\\onedrive\\dokumente\\github\\swen web api server\\swen1 web api server\\swen1 web api server\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|c:\\users\\oweny\\onedrive\\dokumente\\github\\swen web api server\\swen1 web api server\\swen1 web api server\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\models\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +11,24 @@
       "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|c:\\users\\oweny\\onedrive\\dokumente\\github\\swen web api server\\swen1 web api server\\swen1 web api server\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|c:\\users\\oweny\\onedrive\\dokumente\\github\\swen web api server\\swen1 web api server\\swen1 web api server\\service\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\service\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|c:\\users\\oweny\\onedrive\\dokumente\\github\\swen web api server\\swen1 web api server\\swen1 web api server\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|c:\\users\\oweny\\onedrive\\dokumente\\github\\swen web api server\\swen1 web api server\\swen1 web api server\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|c:\\users\\oweny\\onedrive\\dokumente\\github\\swen web api server\\swen1 web api server\\swen1 web api server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|c:\\users\\oweny\\onedrive\\dokumente\\github\\swen web api server\\swen1 web api server\\swen1 web api server\\data access\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|c:\\users\\oweny\\onedrive\\dokumente\\github\\swen web api server\\swen1 web api server\\swen1 web api server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|c:\\users\\oweny\\onedrive\\dokumente\\github\\swen web api server\\swen1 web api server\\swen1 web api server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BB6E614-19A1-E2B7-8F1F-B02ACE5530BE}|Swen1 Web API Server\\Swen1 Web API Server.csproj|solutionrelative:swen1 web api server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,63 +78,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Swen1 Web API Server\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Models\\Post.cs",
+              "RelativeToolTip": "Swen1 Web API Server\\Models\\Post.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T13:52:50.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RatingController.cs",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Controllers\\RatingController.cs",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\Controllers\\RatingController.cs",
               "ToolTip": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Controllers\\RatingController.cs",
               "RelativeToolTip": "Swen1 Web API Server\\Controllers\\RatingController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAkwDwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T11:56:56.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Swen1 Web API Server\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Swen1 Web API Server\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAcwAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T22:24:24.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RatingService.cs",
-              "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Service\\RatingService.cs",
-              "RelativeDocumentMoniker": "Swen1 Web API Server\\Service\\RatingService.cs",
-              "ToolTip": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Service\\RatingService.cs",
-              "RelativeToolTip": "Swen1 Web API Server\\Service\\RatingService.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAADwvzwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T21:48:01.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "Swen1 Web API Server\\Controllers\\PostController.cs",
-              "ToolTip": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Controllers\\PostController.cs",
-              "RelativeToolTip": "Swen1 Web API Server\\Controllers\\PostController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T23:35:30.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "RatingRepository.cs",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Data Access\\RatingRepository.cs",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\Data Access\\RatingRepository.cs",
@@ -138,18 +116,17 @@
               "RelativeToolTip": "Swen1 Web API Server\\Data Access\\RatingRepository.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAIA+wGQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T17:36:09.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T17:36:09.332Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Rating.cs",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Models\\Rating.cs",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\Models\\Rating.cs",
               "ToolTip": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Models\\Rating.cs",
               "RelativeToolTip": "Swen1 Web API Server\\Models\\Rating.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-31T21:55:21.309Z",
               "EditorCaption": ""
@@ -157,6 +134,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Program.cs",
+              "RelativeDocumentMoniker": "Swen1 Web API Server\\Program.cs",
+              "ToolTip": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Program.cs",
+              "RelativeToolTip": "Swen1 Web API Server\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T17:32:44.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Swen1 Web API Server\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Swen1 Web API Server\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T22:24:24.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RatingService.cs",
+              "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Service\\RatingService.cs",
+              "RelativeDocumentMoniker": "Swen1 Web API Server\\Service\\RatingService.cs",
+              "ToolTip": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Service\\RatingService.cs",
+              "RelativeToolTip": "Swen1 Web API Server\\Service\\RatingService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwC8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T21:48:01.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Swen1 Web API Server\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Swen1 Web API Server\\Controllers\\PostController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T23:35:30.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "PostRepositories.cs",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Data Access\\PostRepositories.cs",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\Data Access\\PostRepositories.cs",
@@ -164,12 +193,11 @@
               "RelativeToolTip": "Swen1 Web API Server\\Data Access\\PostRepositories.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAIwBMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T17:35:51.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T17:35:51.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\Service\\UserService.cs",
@@ -177,12 +205,11 @@
               "RelativeToolTip": "Swen1 Web API Server\\Service\\UserService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAwwA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T18:10:53.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T18:10:53.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Data Access\\UserRepository.cs",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\Data Access\\UserRepository.cs",
@@ -194,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\appsettings.json",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\appsettings.json",
@@ -206,19 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Program.cs",
-              "RelativeDocumentMoniker": "Swen1 Web API Server\\Program.cs",
-              "ToolTip": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Program.cs",
-              "RelativeToolTip": "Swen1 Web API Server\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T17:32:44.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Models\\User.cs",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\Models\\User.cs",
@@ -230,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PostService.cs",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Service\\PostService.cs",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\Service\\PostService.cs",
@@ -238,12 +253,11 @@
               "RelativeToolTip": "Swen1 Web API Server\\Service\\PostService.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAgwDkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-31T21:06:26.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-31T21:06:26.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\Controllers\\WeatherForecastController.cs",
@@ -255,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "RolesRepository.cs",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Data Access\\RolesRepository.cs",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\Data Access\\RolesRepository.cs",
@@ -267,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Swen1 Web API Server.csproj",
               "DocumentMoniker": "C:\\Users\\oweny\\OneDrive\\Dokumente\\GitHub\\SWEN Web API Server\\Swen1 Web API Server\\Swen1 Web API Server\\Swen1 Web API Server.csproj",
               "RelativeDocumentMoniker": "Swen1 Web API Server\\Swen1 Web API Server.csproj",

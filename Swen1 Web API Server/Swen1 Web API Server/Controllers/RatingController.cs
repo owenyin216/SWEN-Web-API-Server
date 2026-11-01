@@ -4,6 +4,9 @@ using Swen1_Web_API_Server.Service;
 
 namespace Swen1_Web_API_Server.Controllers
 {
+
+    [ApiController]
+    [Route("api/[controller]")]
     public class RatingController : ControllerBase
     {
         private readonly RatingService _ratingService;
@@ -29,16 +32,16 @@ namespace Swen1_Web_API_Server.Controllers
 
 
         [HttpGet("post/{postid}")]
-        public IActionResult GetRatingByPostID(int id)
+        public IActionResult GetRatingByPostID(int postid)
         {
-            var ratingsuser = _ratingService.GetAllRatingsFromPostID(id);
+            var ratingsuser = _ratingService.GetAllRatingsFromPostID(postid);
             return Ok(ratingsuser);
         }
 
         [HttpGet("user/{userid}")]
-        public IActionResult GetRatingByUserID(int id)
+        public IActionResult GetRatingByUserID(int userid)
         {
-            var ratingsuser = _ratingService.GetAllRatingsFromUserID(id);
+            var ratingsuser = _ratingService.GetAllRatingsFromUserID(userid);
             return Ok(ratingsuser);
         }
 

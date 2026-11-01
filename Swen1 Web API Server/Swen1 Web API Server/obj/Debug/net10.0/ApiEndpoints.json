@@ -1,21 +1,5 @@
 [
   {
-    "ContainingType": "Swen1_Web_API_Server.Controllers.RatingController",
-    "Method": "DeleteRating",
-    "RelativePath": "{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Swen1_Web_API_Server.Controllers.PostController",
     "Method": "CreatePost",
     "RelativePath": "api/Post",
@@ -83,6 +67,86 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Swen1_Web_API_Server.Controllers.RatingController",
+    "Method": "CreateRating",
+    "RelativePath": "api/Rating",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newRating",
+        "Type": "Semester_Projekt.Models.Ratings",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Swen1_Web_API_Server.Controllers.RatingController",
+    "Method": "UpdateRating",
+    "RelativePath": "api/Rating",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedRatings",
+        "Type": "Semester_Projekt.Models.Ratings",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Swen1_Web_API_Server.Controllers.RatingController",
+    "Method": "DeleteRating",
+    "RelativePath": "api/Rating/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Swen1_Web_API_Server.Controllers.RatingController",
+    "Method": "GetRatingByPostID",
+    "RelativePath": "api/Rating/post/{postid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Swen1_Web_API_Server.Controllers.RatingController",
+    "Method": "GetRatingByUserID",
+    "RelativePath": "api/Rating/user/{userid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -174,48 +238,6 @@
       {
         "Name": "newUser",
         "Type": "Semester_Projekt.Models.User",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Swen1_Web_API_Server.Controllers.RatingController",
-    "Method": "GetRatingByPostID",
-    "RelativePath": "post/{postid}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "postid",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Swen1_Web_API_Server.Controllers.RatingController",
-    "Method": "GetRatingByUserID",
-    "RelativePath": "user/{userid}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "userid",
-        "Type": "",
         "IsRequired": true
       }
     ],
